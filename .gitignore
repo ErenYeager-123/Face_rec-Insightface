@@ -1,0 +1,13 @@
+# Dữ liệu
+#data/
+#embeddings.pkl
+
+# Python
+__pycache__/
+*.pyc
+
+# Môi trường ảo
+venv/
+env/
+.idea/
+.vscode/
