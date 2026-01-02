@@ -1,6 +1,6 @@
 # Dữ liệu
-#data/
-#embeddings.pkl
+data/images/
+data/embeddings.pkl
 
 # Python
 __pycache__/
