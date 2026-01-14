@@ -4,7 +4,7 @@ import os
 import pickle 
 from insightface.app import FaceAnalysis
 from datetime import datetime
-from src import config  # <--- Sửa import
+from src import config  
 
 class FaceEngine:
     def __init__(self):

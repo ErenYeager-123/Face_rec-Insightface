@@ -1,7 +1,7 @@
 import cv2
-from src.engine import FaceEngine  # <--- Import từ src
-from src.ui import FaceAppUI       # <--- Import từ src
-from src import config             # <--- Import từ src
+from src.engine import FaceEngine  
+from src.ui import FaceAppUI       
+from src import config             
 
 class MainController:
     def __init__(self):
