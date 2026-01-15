@@ -1,0 +1,18 @@
+# Xử lý hình ảnh và ma trận
+numpy
+opencv-python
+
+# Giao diện và hình ảnh
+Pillow
+
+# AI Core (InsightFace)
+insightface
+onnxruntime          # Cài bản này nếu dùng CPU
+# onnxruntime-gpu    # Bỏ comment dòng này và xóa dòng trên nếu máy có GPU NVIDIA
+
+# Phụ trợ (InsightFace yêu cầu)
+tqdm
+requests
+matplotlib
+scikit-learn
+scikit-image
