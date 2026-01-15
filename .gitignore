@@ -1,13 +1,19 @@
-# Dữ liệu
-data/images/
+# Loại bỏ tệp cơ sở dữ liệu khuôn mặt 
 data/embeddings.pkl
 
-# Python
+# Loại bỏ toàn bộ ảnh mẫu bên trong thư mục images 
+# Nhưng giữ lại thư mục images để không bị lỗi cấu hình
+data/images/*
+!data/images/.gitkeep
+
+# Các tệp tạm của Python
 __pycache__/
 *.pyc
 
-# Môi trường ảo
+# Môi trường ảo (nếu có)
 venv/
 env/
-.idea/
+
+# Cấu hình trình soạn thảo
 .vscode/
+.idea/
